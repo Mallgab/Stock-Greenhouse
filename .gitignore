@@ -1,0 +1,49 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+.report/
+
+# Node.js
+# mklink /J "node_modules" "$APPDATA
+pm
+ode_modules"
+# see https://github.com/npm/npm/blob/HEAD/.gitignore
+/node_modules
+/.pnp
+.pnp.js
+.cache
+/tmp
+.eslintcache
+
+# Production
+/dist
+/build
+/public # Usually this isn't ignored, but for a web app that builds to public, it might be. Adjust as needed.
+
+# IDEs and Editors
+.vscode
+.idea
+*.sublime-project
+*.sublime-workspace
+.DS_Store # macOS
+Thumbs.db # Windows
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Vite-specific
+.vite/
+
+# Others
+package-lock.json
+yarn.lock
+pnpm-lock.yaml

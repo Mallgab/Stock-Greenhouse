@@ -1,0 +1,22 @@
+[
+  {
+    "id": "AAPL",
+    "name": "Apple",
+    "displayName": "Apple",
+    "rarity": "common",
+    "basePrice": 50,
+    "minPrice": 10,
+    "maxPrice": 300,
+    "baseGrowthRate": 1.0
+  },
+  {
+    "id": "TSLA",
+    "name": "Tesla",
+    "displayName": "Tesla",
+    "rarity": "rare",
+    "basePrice": 120,
+    "minPrice": 30,
+    "maxPrice": 600,
+    "baseGrowthRate": 1.3
+  }
+]

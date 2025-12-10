@@ -1,0 +1,26 @@
+[
+    {
+      "id": "increase_pot_amount_1",
+      "name": "Expand Greenhouse (Tier 1)",
+      "description": "Unlocks 2 new pot spaces.",
+      "cost": 200,
+      "effect": { "type": "increase_max_plots", "value": 2 },
+      "prerequisite": null
+    },
+    {
+      "id": "fertilizer_quality_1",
+      "name": "Enhanced Fertilizer (Tier 1)",
+      "description": "Increases fertilizer effectiveness by 50%.",
+      "cost": 150,
+      "effect": { "type": "increase_fertilizer_quality", "value": 0.5 },
+      "prerequisite": null
+    },
+    {
+        "id": "water_can_upgrade_1",
+        "name": "Large Water Can (Tier 1)",
+        "description": "Reduces water buff decay rate by 1.",
+        "cost": 100,
+        "effect": { "type": "reduce_water_decay", "value": 1 },
+        "prerequisite": null
+    }
+  ]
