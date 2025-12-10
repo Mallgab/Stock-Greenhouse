@@ -1,4 +1,4 @@
-import * as THREE from 'three';
+import * as THREE from 'three/build/three.module.js';
 
 // Helper to create a billboarded text label (copied from PlantSystem.js for now)
 function createTextCanvas(text, textColor, backgroundColor) {

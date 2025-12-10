@@ -1,4 +1,4 @@
-import * as THREE from 'three';
+import * as THREE from 'three/build/three.module.js';
 import { GreenhouseScene } from './scene/GreenhouseScene.js';
 import { Player } from './player/Player.js';
 import { CameraSystem } from './systems/CameraSystem.js';
